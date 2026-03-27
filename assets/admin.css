@@ -1,0 +1,40 @@
+.srk-vtam-wrap .srk-vtam-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+.srk-vtam-wrap .srk-vtam-card {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.srk-vtam-log,
+.srk-vtam-list {
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    padding: 12px;
+    min-height: 260px;
+    max-height: 420px;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 12px;
+}
+#srk-vtam-batch-size {
+    width: 100px;
+}
+#srk-vtam-product-search + .select2,
+#srk-vtam-product-search {
+    max-width: 100%;
+}
+.srk-vtam-wrap .description {
+    display: inline-block;
+    margin-top: 6px;
+}
+@media (max-width: 960px) {
+    .srk-vtam-wrap .srk-vtam-grid {
+        grid-template-columns: 1fr;
+    }
+}
